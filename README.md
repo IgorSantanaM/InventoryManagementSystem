@@ -39,8 +39,8 @@ Once the project is running, you can interact with the inventory management syst
 - List inventory: The system lists all current inventory items after each action.
   Here's a simple example of adding and removing items:
 
-  ``` csharp
-  // Example usage in Program.cs
+``` csharp
+// Example of usage in Program.cs
 Inventory inventory = new Inventory();
 
 // Adding items
@@ -55,7 +55,8 @@ inventory.ListInventory();
 inventory.RemoveItem(2);
 
 // Displaying inventory after removal
-inventory.ListInventory();```
+inventory.ListInventory();
+```
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or a pull request.
